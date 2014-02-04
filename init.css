@@ -3,7 +3,9 @@
 init css is designed much like bootstrap 
 but instead of concentrating on tags and semantics
 it uses self descriptive classes which can be applied
-to any tag, so minimal number of tags can be used
+to any tag, so minimal number of tags can be used.
+Large number of self descriptive classes but being 
+self descriptive tags are much easier to remember
 
 */
 
@@ -21,6 +23,10 @@ p, div, ul, li, ol {
 	cursor: default;
 }
 
+a, .link {
+	cursor: pointer;
+}
+
 /* 
 
 	text hierarchy
@@ -30,8 +36,12 @@ p, div, ul, li, ol {
 
 */
 
-html, body {
+html {
 	font-size: 40px;
+}
+
+body {
+	font-size: 100%;
 }
 
 .text-size-1 {
