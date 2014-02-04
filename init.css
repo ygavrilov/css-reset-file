@@ -1,0 +1,133 @@
+/*
+
+init css is designed much like bootstrap 
+but instead of concentrating on tags and semantics
+it uses self descriptive classes which can be applied
+to any tag, so minimal number of tags can be used
+
+*/
+
+/* reset */
+body, div, p {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*
+	cursor reset 
+	text selector cursor should only be used for input fields
+*/
+p, div, ul, li, ol {
+	cursor: default;
+}
+
+/* 
+
+	text hierarchy
+
+	font-size specified for body and html tags only
+	rest of the sizes are cpecified in "rem" to avoid inheritance
+
+*/
+
+html, body {
+	font-size: 40px;
+}
+
+.text-size-1 {
+	font-size: 1rem;
+}
+
+.text-size-2 {
+	font-size: .75rem;
+}
+
+.text-size-3 {
+	font-size: .5rem;
+}
+
+.text-size-4 {
+	font-size: .4rem;
+}
+
+.text-size-5 {
+	font-size: .35rem;
+}
+
+.text-size-6 {
+	font-size: .3rem;
+}
+
+
+/*
+
+	basic colors, for each theme red can be different
+	but there still might be a red color
+
+	TODO: may be it's better to describe similarly to bootstrap, by intended use?;
+
+*/
+
+.text-color-default {
+	color: #000;
+}
+
+.text-color-info {
+	color: #fff;
+}
+
+.text-color-warning {
+	color: #f00;
+}
+
+/*
+	margins 
+*/
+
+.margin-top-half {
+	margin-top: .25rem;
+}
+
+.margin-top {
+	margin-top: .5rem;
+}
+
+.margin-top-double {
+	margin-top: 1rem;
+}
+
+.margin-bottom-half {
+	margin-bottom: .25rem;
+}
+
+.margin-bottom {
+	margin-bottom: .5rem;
+}
+
+.margin-bottom-double {
+	margin-bottom: 1rem;
+}
+
+.margin-left-half {
+	margin-left: .25rem;
+}
+
+.margin-left {
+	margin-left: .5rem;
+}
+
+.margin-left-double {
+	margin-left: 1rem;
+}
+
+.margin-right-half {
+	margin-right: .25rem;
+}
+
+.margin-right {
+	margin-right: .5rem;
+}
+
+.margin-right-double {
+	margin-right: 1rem;
+}
